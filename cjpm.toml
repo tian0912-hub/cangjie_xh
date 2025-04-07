@@ -1,7 +1,7 @@
 
 [dependencies]
-  #hamster_commander_toolkit = { version = "1.0.0", git = "https://gitcode.com/zhangyin_gitcode/hamster_commander_toolkit.git", branch="564" }
-  hamster_commander_toolkit = { version = "1.0.0", path = "/Users/tianbin/DevecostudioProjects/tb_hamster_toolkit" }
+  hamster_commander_toolkit = { version = "1.0.0", git = "https://gitcode.com/zhangyin_gitcode/hamster_commander_toolkit.git", branch="564" }
+  # hamster_commander_toolkit = { version = "1.0.0", path = "/Users/tianbin/DevecostudioProjects/tb_hamster_toolkit" }
   
 [package]
   cjc-version = "0.59.6"
@@ -9,8 +9,8 @@
   description = "nothing here"
   link-option = ""
   name = "studyCj"
-  # output-type = "static"
-  output-type = "executable" 
+  output-type = "static"
+  # output-type = "executable" 
   override-compile-option = ""
   src-dir = ""
   target-dir = ""

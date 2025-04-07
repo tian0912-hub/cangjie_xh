@@ -4,7 +4,7 @@ import std.unittest.*
 import std.unittest.testmacro.*
 import std.random.*
 import std.fs.*
-import studyCj.*
+import studyCj.services.*
 
 
 @Test

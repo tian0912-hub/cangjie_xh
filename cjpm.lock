@@ -1,3 +1,4 @@
 version = 0
 
 [requires]
+  hamster_commander_toolkit = {branch = "564", commitId = "61ea7c1a98eed357b07f4b23015281cc8eb19805", git = "https://gitcode.com/zhangyin_gitcode/hamster_commander_toolkit.git", version = "1.0.0"}

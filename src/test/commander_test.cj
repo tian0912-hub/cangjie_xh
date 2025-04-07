@@ -23,8 +23,8 @@ public class CommanderTest {
         let commandService = mock<ICommandService>();
         let commander = Commander(secretStore, historyStore, commandService);
         commander.setKeySecret(key, secret);
-        let keyFromSecretStore = secretStore.get(Commander.API_KEY_KEY);
-        let secretFromSecretStore = secretStore.get(Commander.API_SECRET_KEY);
+        let keyFromSecretStore = secretStore.get(API_KEY_KEY);
+        let secretFromSecretStore = secretStore.get(API_SECRET_KEY);
         @Expect(keyFromSecretStore, key);
         @Expect(secretFromSecretStore, secret);
     }
