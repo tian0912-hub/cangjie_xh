@@ -5,6 +5,7 @@ import std.unittest.testmacro.*
 import std.unittest.mock.*
 import std.unittest.mock.mockmacro.*
 import std.random.*
+import crypto.crypto.*
 import studyCj.*
 import studyCj.services.*
 import studyCj.model.*
@@ -14,7 +15,7 @@ public class CommanderTest {
 
     @TestCase
     public func setKeySecret_default () {
-        let random = Random();
+        let random = SecureRandom();
         let randomInt16 = random.nextInt16();
         let key = "key" + randomInt16.toString();
         let secret = "secret" + randomInt16.toString();
